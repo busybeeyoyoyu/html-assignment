@@ -1,0 +1,43 @@
+/* My awesome CSS!*/
+
+
+body {
+    background-color:pink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+    header,footer {
+        background-color: beige;
+    }
+
+
+.site-title{
+    color:rgb(78, 7, 7);
+}
+#my-image{
+    box-shadow:0 0 2px 1px black ;
+}
+ul{
+    list-style-type:square;
+}
+
+.hobbie-list li:nth-child(odd) {
+    background:brown;
+  }
+  nav{
+    background-color: brown;height :56px;
+    color:aliceblue
+    
+  }
+  .link{list-style-type: none;}
+  a:link {
+    text-decoration: none;
+  }
+  a{
+    color: rgb(251, 251, 251);
+  }
+  a:link {border-style: ridge;padding: -10px;}
+
+  a:hover { 
+    background-color: rgb(135, 92, 92);
+  }
